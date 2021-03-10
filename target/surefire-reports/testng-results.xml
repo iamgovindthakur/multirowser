@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="121235" started-at="2021-03-10T14:15:22Z" finished-at="2021-03-10T14:17:24Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="85034" started-at="2021-03-10T14:15:22Z" finished-at="2021-03-10T14:16:47Z">
+      <class name="multibrowser.InvokeBrowserDynamically">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:multibrowser.InvokeBrowserDynamically@67e2d983]" name="OpenBrowser" is-config="true" duration-ms="67087" started-at="2021-03-10T14:15:22Z" finished-at="2021-03-10T14:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="verifyFaceBookHomePage()[pri:0, instance:multibrowser.InvokeBrowserDynamically@67e2d983]" name="verifyFaceBookHomePage" duration-ms="15333" started-at="2021-03-10T14:16:30Z" finished-at="2021-03-10T14:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFaceBookHomePage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:multibrowser.InvokeBrowserDynamically@67e2d983]" name="quitBrowser" is-config="true" duration-ms="2553" started-at="2021-03-10T14:16:45Z" finished-at="2021-03-10T14:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- multibrowser.InvokeBrowserDynamically -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="36163" started-at="2021-03-10T14:16:47Z" finished-at="2021-03-10T14:17:24Z">
+      <class name="multibrowser.InvokeBrowserDynamically">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:multibrowser.InvokeBrowserDynamically@12d3a4e9]" name="OpenBrowser" is-config="true" duration-ms="28668" started-at="2021-03-10T14:16:47Z" finished-at="2021-03-10T14:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="verifyFaceBookHomePage()[pri:0, instance:multibrowser.InvokeBrowserDynamically@12d3a4e9]" name="verifyFaceBookHomePage" duration-ms="6795" started-at="2021-03-10T14:17:16Z" finished-at="2021-03-10T14:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFaceBookHomePage -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:multibrowser.InvokeBrowserDynamically@12d3a4e9]" name="quitBrowser" is-config="true" duration-ms="697" started-at="2021-03-10T14:17:23Z" finished-at="2021-03-10T14:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- multibrowser.InvokeBrowserDynamically -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
